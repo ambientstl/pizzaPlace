@@ -1,0 +1,86 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid;
+  padding: .5rem .5rem;
+  border-radius: 25px;
+}
+
+footer {
+  border-top: solid 1px black;
+  padding: 2rem 2rem 4rem;
+  margin: 1rem 1rem;
+  clear: both;
+}
+
+#jumbotron {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%
+}
+
+#jumbotron > h1 {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 1.5rem 3rem;
+}
+
+#jumbotron > a {
+  text-decoration: none;
+  background-color: white;
+  font-size: 1.5em;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+#homePic {
+  display: block;
+  margin: auto;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#menu div {
+  margin: 1rem 1rem;
+}
+
+#menu h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#orderForm {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#orderForm > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#orderForm > div div {
+  margin: .25rem .75rem
+}
+

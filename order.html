@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zsa Zsa's 'Za</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Zsa Zsa's 'Za</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./menu.html">Menu</a></li>
+      <li><a href="./order.html">Order</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Order Now</h2>
+    <form id="orderForm" action="" method="POST">
+      <div id="pizzaOrderForm">
+        <h3>Pizza Order</h3>
+        <div>
+          <input type="radio" id="delivery" name="deliveryType" value="delivery" checked>
+          <label for="delivery">Delivery</label>
+          <input type="radio" id="pickUp" name="deliveryType" value="pickUp">
+          <label for="pickUp">Pick Up</label>
+        </div>
+        <div>
+          <label for="size">Size: </label>
+          <select name="size" id="size">
+            <option value="xl">XL</option>
+            <option value="l">L</option>
+            <option value="m">M</option>
+            <option value="s">S</option>
+          </select>
+        </div>
+        <div>
+          <label for="crust">Crust: </label>
+          <select name="crust" id="crust">
+            <option value="thin">Thin</option>
+            <option value="handTossed">Hand Tossed</option>
+            <option value="deepDish">Deep Dish</option>
+            <option value="stuffedCrust">Stuffed Crust</option>
+          </select>
+        </div>
+        <div>
+          <label for="sauce">Sauce: </label>
+          <select name="sauce" id="sauce">
+            <option value="red">Red</option>
+            <option value="white">White</option>
+            <option value="garlic">Garlic</option>
+            <option value="pesto">Pesto</option>
+          </select>
+        </div>
+        <fieldset>
+          <legend id="toppings">Toppings</legend>
+          <div>
+            <input type="checkbox" name="toppings" id="sausage" value="sausage">
+            <label for="sausage">Sausage</label>
+          </div>
+          <div>
+            <input type="checkbox" name="toppings" id="pepperoni" value="pepperoni">
+            <label for="pepperoni">Pepperoni</label>
+          </div>
+          <div>
+            <input type="checkbox" name="toppings" id="bacon" value="bacon">
+            <label for="bacon">Bacon</label></div>
+          <div>
+            <input type="checkbox" name="toppings" id="onion" value="onion">
+            <label for="onion">Onion</label></div>
+          <div>
+            <input type="checkbox" name="toppings" id="greenPeppers" value="greenPeppers">
+            <label for="greenPeppers">Green Peppers</label></div>
+          <div>
+            <input type="checkbox" name="toppings" id="mushroom" value="mushroom">
+            <label for="mushroom">Mushroom</label></div>
+          <div>
+            <input type="checkbox" name="toppings" id="tomato" value="tomato">
+            <label for="tomato">Tomato</label></div>
+          <div>
+            <input type="checkbox" name="toppings" id="blackOlives" value="blackOlives">
+            <label for="blackOlives">Black Olives</label></div>
+        </fieldset>
+      </div>
+      <div id="customerInfoForm">
+        <h3>Customer Info</h3>
+        <div>
+          <label for="name">Name: </label>
+          <input type="text" id="name" name="name" placeholder="Your Name">
+        </div>
+        <div>
+          <label for="phone">Phone #: </label>
+          <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx">
+        </div>
+        <div>
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" placeholder="your@email.here">
+        </div>
+        <div id="addressSection">
+          <h4>Address</h4>
+          <div>
+            <label for="address">Address: </label>
+            <input type="text" id="address" name="address" placeholder="123 Your Address">
+          </div>
+          <div>
+            <label for="city">City: </label>
+            <input type="text" id="city" name="city" placeholder="Your City">
+          </div>
+          <div>
+            <label for="zipcode">Zipcode: </label>
+            <input type="text" id="zipcode" name="zipcode" placeholder="xxxxx">
+          </div>
+        </div>
+        <input type="submit" name="submit" value="Order Pizza">
+      </div>
+    </form>
+  </main>
+  <footer>
+    &copy; 2020 Zsa Zsa's 'Za
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
