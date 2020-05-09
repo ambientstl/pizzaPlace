@@ -55,6 +55,17 @@ footer {
   margin: auto;
 }
 
+#zaZaGabor {
+  float: left;
+  width: 33%;
+  height: auto;
+  margin: 0 2rem;
+}
+
+#aboutParagraphs > p {
+  margin: 1rem 2rem;
+}
+
 #menu {
   display: flex;
   flex-direction: row;
